@@ -119,12 +119,12 @@ int main (void) {
 {//Task6
 	using namespace lt_tsk;
 	int (*f[3])(int, int);
-	f[0] = sum;
-	f[1] = diff;
-	f[2] = mul;
+	f[0] = sum;//function in in file Task6
+	f[1] = diff;//function in in file Task6
+	f[2] = mul;//function in in file Task6
     int a = 3, b = 4;
 	for (int i = 0; i < 3; i++) std::cout << f[i](a, b) << std::endl;
-	double (*d) (int&, int&) = div;
+	double (*d) (int&, int&) = div;//function in file division
 	std::cout << (*d)(a, b) << std::endl;
 	
 }
